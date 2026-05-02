@@ -5,6 +5,13 @@ namespace Database\Seeders;
 use App\Models\Task;
 use Illuminate\Database\Seeder;
 
+/**
+ * TaskSeeder
+ *
+ * Inserts a small, realistic demo dataset so the app isn't empty
+ * the first time it is opened. Safe to re-run: it clears the
+ * tasks table before inserting so rows never pile up on repeat runs.
+ */
 class TaskSeeder extends Seeder
 {
     public function run(): void
